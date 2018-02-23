@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Complex layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        
+        .header {
+            overflow: hidden;
+            min-height: 75px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            background-color: aqua;
+        }
+        
+        .wrapper {
+            min-height: 75px;
+            width: 90%;
+            margin: 0px auto;
+        }
+        
+        .logo {
+            min-height: 40px;
+            margin-top: 15px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            width: 20%;
+            float: left;
+            background-color: red;
+        }
+        
+        .menu_wrapper {
+            width: 50%;
+            min-height: 75px;
+            float: right;
+            margin-right: 10%;
+        }
+        
+        .search_bar {
+            width: 50%;
+            min-height: 25px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            margin: 10px auto;
+            background-color: wheat;
+        }
+        
+        .menu_bar {
+            width: 100%;
+            min-height: 29px;
+            border: 1px solid green;
+            box-sizing: border-box;
+            background-color: firebrick;
+        }
+        
+        .slider {
+            overflow: hidden;
+            min-height: 300px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            background-color: green;
+            
+        }
+        
+        .slider_wrapper {
+            min-height: 300px;
+            width: 90%;
+            margin: 0px auto;
+            border: 1px solid green;
+            box-sizing: border-box;
+            background-color: blueviolet;
+        }
+        
+        .content {
+            overflow: hidden;
+            min-height: 400px;
+        }
+        
+        .side_bar {
+            width: 25%;
+            border: 1px solid gray;
+            min-height: 400px;
+            box-sizing: border-box;
+            float: left;
+            background-color: yellow;
+           
+        }
+        
+        .left_side_bar_top {
+         width: 80%;
+            min-height: 150px;
+            margin: 10px auto;
+            border: 1px solid black;
+            box-sizing: border-box;
+            background-color: aqua;
+        }
+        
+        .left_side_bar_bottom {
+            width: 80%;
+            min-height: 210px;
+            margin: 10px auto;
+            border: 1px solid black;
+            box-sizing: border-box;
+            background-color: brown;
+        }
+        
+        .main_content {
+            width: 50%;
+            border: 1px solid red;
+            box-sizing: border-box;
+            min-height: 400px;
+            float: left;
+            background-color: whitesmoke;
+        }
+        
+        .single_content {
+            width: 80%;
+            min-height: 113px;
+            border: 1px solid black;
+            margin: 10px auto;
+            box-sizing: border-box;
+            background-color: gray;
+        }
+        
+    
+        
+        .right_side_bar_top {
+            width: 80%;
+            min-height: 180px;
+            margin: 10px auto;
+            border: 1px solid black;
+            box-sizing: border-box;
+            background-color: indigo;
+        }
+        
+        .right_side_bar_bottom {
+            width: 80%;
+            min-height: 180px;
+            margin: 10px auto;
+            border: 1px solid black;
+            box-sizing: border-box;
+            background-color: darkcyan;
+        }
+        
+        .footer {
+            overflow: hidden;
+            min-height: 75%;
+            border: 1px solid green;
+            box-sizing: border-box;
+            background-color: navajowhite;
+        }
+        
+        .copyright {
+            min-height: 35px;
+            width: 50%;
+            border: 1px solid gray;
+            margin: 20px auto;
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <div class="logo"></div>
+            <div class="menu_wrapper">
+                <div class="search_bar"></div>
+                <div class="menu_bar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slider_wrapper"> </div>
+    </div>
+    <div class="content">
+        <div class="side_bar">
+            <div class="left_side_bar_top"></div>
+            <div class="left_side_bar_bottom"></div>
+        </div>
+        <div class="main_content">
+            <div class="single_content"></div>
+            <div class="single_content"></div>
+            <div class="single_content"></div>
+        </div>
+        <div class="side_bar">
+            <div class="right_side_bar_top"></div>
+            <div class="right_side_bar_bottom"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright"></div>
+    </div>
+</body>
+
+</html>
